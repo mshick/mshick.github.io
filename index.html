@@ -35,8 +35,9 @@
 
     <script type="text/javascript">
       var phone = document.getElementById("phone");
-
+      console.log(phone, phone.href);
       if (!isMobile) {
+        console.log('is not mobile!');
         phone.href = phone.href.replace(/^tel/, "callto");
       }
 
