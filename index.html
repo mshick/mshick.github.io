@@ -32,15 +32,32 @@
         line-height: 1.7em;
       }
     </style>
+
+    <script type="text/javascript">
+      var phone = document.getElementById("phone");
+
+      if (!isMobile) {
+        phone.href = phone.href.replace(/^tel/, "callto");
+      }
+
+      function isMobile() {
+          return (
+              ( navigator.userAgent.indexOf( "iPhone" ) > -1 ) ||
+              ( navigator.userAgent.indexOf( "iPod" ) > -1 ) ||
+              ( navigator.userAgent.indexOf( "iPad" ) > -1 ) ||
+              ( navigator.userAgent.indexOf( "Android" ) > -1 ) ||
+              ( navigator.userAgent.indexOf( "webOS" ) > -1 )
+          );
+      };
+    </script>
   </head>
 
   <body>
     <div id="page">
       <h1>Michael Shick</h1>
       <h2>Web Developer</h2>
-      <span>Email: <a
-          href="mailto:me@michaelshick.com">me@michaelshick.com</a></span>
-      <span>Phone: <a a href="tel:9193600095">(919) 360-0095</a></span>
+      <span>Email: <a href="mailto:me@michaelshick.com">me@michaelshick.com</a></span>
+      <span>Phone: <a id="phone" href="tel:9193600095">(919) 360-0095</a></span>
     </div>
   </body>
 </html>
