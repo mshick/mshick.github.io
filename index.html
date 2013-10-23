@@ -34,12 +34,14 @@
     </style>
 
     <script type="text/javascript">
-      var phone = document.getElementById("phone");
-      console.log(phone, phone.href);
-      if (!isMobile) {
-        console.log('is not mobile!');
-        phone.href = phone.href.replace(/^tel/, "callto");
-      }
+      function domReady () {
+        var phone = document.getElementById("phone");
+        console.log(phone, phone.href);
+        if (!isMobile) {
+          console.log('is not mobile!');
+          phone.href = phone.href.replace(/^tel/, "callto");
+        }
+      };
 
       function isMobile() {
           return (
@@ -50,6 +52,8 @@
               ( navigator.userAgent.indexOf( "webOS" ) > -1 )
           );
       };
+
+      document.addEventListener('DOMContentLoaded', domReady);
     </script>
   </head>
 
