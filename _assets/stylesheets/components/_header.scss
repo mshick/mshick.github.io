@@ -1,0 +1,15 @@
+header {
+  @include markdown();
+  @include markdown-typography();
+  @include markdown-headings();
+
+  h1 {
+    display: inline-block;
+    float: left;
+  }
+
+  .avatar {
+    display: inline-block;
+    margin: 2rem;
+  }
+}
