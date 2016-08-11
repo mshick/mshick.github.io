@@ -1,16 +1,8 @@
 .body--homepage {
-  @include markdown();
-  @include markdown-typography();
-  @include markdown-hr();
-  @include markdown-headings();
-
-  header h1 {
-    display: inline-block;
-    float: left;
-  }
-
-  .avatar {
-    display: inline-block;
-    margin: 2rem;
+  .page {
+    @include markdown();
+    @include markdown-typography();
+    @include markdown-hr();
+    @include markdown-headings();
   }
 }
