@@ -1,5 +1,5 @@
 ---
-title: Homepage
+title: Michael Shick
 date: '2016-08-11 08:13:00'
 layout: page
 body_class: body--homepage
