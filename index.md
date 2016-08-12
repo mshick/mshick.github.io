@@ -1,6 +1,6 @@
 ---
 title: Welcome!
-date: '2016-08-11 08:13:00'
+date: '2016-08-11 00:00:00'
 layout: page
 body_class: body--homepage
 ---
@@ -18,9 +18,9 @@ body_class: body--homepage
 * Phone: [+1 347-987-0104](tel:+13479870104)
 * GitHub: [mshick]({{ site.github.owner_url }})
 
+{% if site.posts | length %}
 ### Latest posts
 
-{% if site.posts | length %}
 {% for post in site.posts limit:3 %}
 * [{{ post.title }}]({{ post.url }})
 {% endfor %}
