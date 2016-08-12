@@ -1,6 +1,6 @@
 ---
-title: Michael Shick
-date: 2016-08-11 08:13:13 -07:00
+title: Homepage
+date: '2016-08-11 08:13:00'
 layout: page
 body_class: body--homepage
 ---
@@ -8,7 +8,7 @@ body_class: body--homepage
 ### I am
 
 * Technical Director at [Ronik Design](http://www.ronikdesign.com)
-* Great with React, Node.js, AWS, generators, content-management systems,     relational and object databases.
+* Great with React, Node.js, AWS, generators, content-management systems,     relational and object databases
 * Writing in Javascript, Ruby, PHP
 * Pleased to meet you 👋
 
