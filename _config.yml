@@ -1,3 +1,10 @@
+# User data
+title: Michael Shick
+url: http://shick.us
+description: I'm a developer.
+author: mshick
+logo: /assets/images/avatar.jpg
+
 # Where things are
 destination:  ./_site
 layouts_dir:  _layouts
@@ -49,9 +56,9 @@ gems:
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-gist
-  
+
   - jekyll-github-metadata
-  
+
 
 # Markdown Processors
 kramdown:

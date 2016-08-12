@@ -1,5 +1,5 @@
 ---
-title: Michael Shick
+title: Welcome!
 date: '2016-08-11 08:13:00'
 layout: page
 body_class: body--homepage
@@ -17,3 +17,11 @@ body_class: body--homepage
 * Email: [m@shick.us](mailto:m@shick.us)
 * Phone: [+1 347-987-0104](tel:+13479870104)
 * GitHub: [mshick]({{ site.github.owner_url }})
+
+### Latest posts
+
+{% if site.posts | length %}
+{% for post in site.posts limit:3 %}
+* [{{ post.title }}]({{ post.url }})
+{% endfor %}
+{% endif %}
