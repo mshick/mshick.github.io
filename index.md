@@ -16,3 +16,4 @@ body_class: body--homepage
 
 * Email: [m@shick.us](mailto:m@shick.us)
 * Phone: [(347) 987-0104](tel:3479870104)
+* GitHub: [mshick]({{ site.github.owner_url }})
