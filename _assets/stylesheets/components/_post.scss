@@ -1,0 +1,12 @@
+.post {
+  @include markdown-paragraph();
+  @include markdown-blockquote();
+  @include markdown-list();
+}
+
+.post-image {
+  img {
+    width: 100px;
+    height: auto;    
+  }
+}
