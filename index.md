@@ -20,12 +20,8 @@ body_class: body--homepage
 
 ### Latest projects
 
-{% for project in site.projects %}
-* [{{ project.title }}]({{ project.url }})
-{% endfor %}
+{% include project-list.html %}
 
 [comment]: <> (### Latest posts)
 
-{% for post in site.posts limit:3 %}
-* [{{ post.title }}]({{ post.url }})
-{% endfor %}
+{% include post-list.html %}
