@@ -15,7 +15,7 @@ body_class: body--homepage
 ### Contact me
 
 * Email: [m@shick.us](mailto:m@shick.us)
-* Phone: [+1 347-987-0104](tel:+13479870104)
+* Phone: [+1-347-987-0104](tel:+13479870104)
 * GitHub: [mshick]({{ site.github.owner_url }})
 
 [comment]: <> (### Latest posts)
