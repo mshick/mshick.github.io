@@ -8,7 +8,7 @@ body_class: body--homepage
 ### I am
 
 * Technical Director at [Ronik Design](http://www.ronikdesign.com)
-* Great with React, Node.js, AWS, generators, content-management systems,     relational and object databases
+* Great with React, Node.js, AWS, generators, content-management systems, relational and object databases
 * Writing in Javascript, Ruby, PHP
 * Pleased to meet you 👋
 
@@ -20,7 +20,7 @@ body_class: body--homepage
 
 ### Latest projects
 
-{% for project in site.projects limit:3 %}
+{% for project in site.projects %}
 * [{{ project.title }}]({{ project.url }})
 {% endfor %}
 
