@@ -18,6 +18,12 @@ body_class: body--homepage
 * Phone: [+1-347-987-0104](tel:+13479870104)
 * GitHub: [mshick]({{ site.github.owner_url }})
 
+### Latest projects
+
+{% for project in site.projects limit:3 %}
+* [{{ project.title }}]({{ project.url }})
+{% endfor %}
+
 [comment]: <> (### Latest posts)
 
 {% for post in site.posts limit:3 %}

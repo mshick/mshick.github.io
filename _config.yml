@@ -12,7 +12,10 @@ data_dir:     _data
 includes_dir: _includes
 collections:
   posts:
-    output:   true
+    output:     true
+  projects:
+    output:     true
+    permalink:  /projects/:path/
 
 # Handling Reading
 include:      []
@@ -81,3 +84,16 @@ compress_html:
   blanklines: false
   profile: false
   startings: []
+
+# Front Matter defaults
+defaults:
+  -
+    scope:
+      type: "posts"
+    values:
+      author: mshick
+  -
+    scope:
+      type: "projects"
+    values:
+      author: mshick

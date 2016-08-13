@@ -1,5 +1,5 @@
 {% assign repo = site.github.public_repositories | where:"name", "mshick.github.io"  | first %}
 <footer row>
   <hr />
-  <span>Last updated: <a href="{{ site.github.repository_url }}/commits">{{ repo.updated_at }}</a></span>
+  <span>Last updated: <a href="{{ site.github.repository_url }}/commits">{{ repo.pushed_at }}</a></span>
 </footer>
