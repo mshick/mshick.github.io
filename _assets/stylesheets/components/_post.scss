@@ -4,9 +4,18 @@
   @include markdown-list();
 }
 
+.post-title {
+  margin-bottom: 1lh;
+}
+
 .post-image {
   img {
     width: 100pr;
     height: auto;
   }
+}
+
+p.post-meta {
+  border: 1px dashed;
+  padding: 0.5lh;
 }

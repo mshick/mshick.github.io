@@ -11,6 +11,7 @@ body_class: body--homepage
 * Great with React, Node.js, AWS, generators, content-management systems, relational and object databases
 * Writing in Javascript, Ruby, PHP
 * Pleased to meet you 👋
+* [Read more (Curriculum Vitæ)](/cv/)
 
 ### Contact me
 

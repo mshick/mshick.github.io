@@ -4,13 +4,8 @@ layout: default
 
 <article row class="post" itemscope itemtype="http://schema.org/BlogPosting">
   <header grid class="post-header">
-    <div column>
+    <div column="6">
       <h2 class="post-title" itemprop="name headline">{{ page.title }}</h2>
-      <p class="post-meta">
-        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-          {{ page.date }}
-        </time>
-      </p>
     </div>
     {% if page.image %}
     <figure column class="post-image">

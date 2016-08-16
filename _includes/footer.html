@@ -1,5 +1,16 @@
-{% assign repo = site.github.public_repositories | where:"name", "mshick.github.io"  | first %}
+{% if page.updated %}
+  {% assign updated = page.updated %}
+  {% capture updated_url %}https://github.com/mshick/mshick.github.io/commits/master/{{ page.path }}{% endcapture %}
+{% else if page.date %}
+  {% assign updated = page.date %}
+  {% capture updated_url %}https://github.com/mshick/mshick.github.io/commits/master/{{ page.path }}{% endcapture %}
+{% else %}
+  {% assign repo = site.github.public_repositories | where:"name", "mshick.github.io"  | first %}
+  {% assign updated = repo.pushed_at %}
+  {% capture updated_url %}{{ site.github.repository_url }}/commits{% endcapture %}
+{% endif %}
+
 <footer row>
   <hr />
-  <span>Last updated: <a href="{{ site.github.repository_url }}/commits">{{ repo.pushed_at }}</a></span>
+  <time datetime="{{ updated | date_to_xmlschema }}" itemprop="datePublished">Last updated: <a href="{{ updated_url }}">{{ updated }}</a></time>
 </footer>

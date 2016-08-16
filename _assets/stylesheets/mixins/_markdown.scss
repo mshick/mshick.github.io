@@ -3,6 +3,10 @@
   font-style: normal;
   font-family: $font-family-mono;
   color: getColor(text, primary);
+
+  strong {
+    font-weight: bold;
+  }
 }
 
 @mixin markdown-headings {
@@ -12,6 +16,7 @@
   h4,
   h5,
   h6 {
+    font-family: $font-family-headings;
     float: none;
     margin: 0;
     padding: 0;
@@ -25,6 +30,7 @@
     overflow: hidden;
 
     &:after {
+      font-family: $font-family-mono;
       content: "====================================================================================================";
       position: absolute;
       bottom: $spacing-m;
@@ -123,8 +129,8 @@
     padding: 0;
     margin-left: 0;
     margin-right: 0;
-    margin-top: $spacing-m;
-    margin-bottom: $spacing-m;
+    // margin-top: $spacing-m;
+    margin-bottom: 1lh;
   }
 }
 
@@ -140,6 +146,10 @@
     display: block;
     padding-left: 34px;
     padding-left: 4ch;
+
+    p {
+      margin-bottom: 0.5lh
+    }
 
     &:after {
       position: absolute;
