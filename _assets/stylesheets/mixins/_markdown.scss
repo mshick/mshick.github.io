@@ -90,7 +90,7 @@
       top: 0;
       left: 0;
       font-size: $font-base-size + pr;
-      line-height: $spacing-m;
+      line-height: 1.5lh;
       width: 100%;
       word-wrap: break-word;
     }
@@ -116,7 +116,7 @@
       top: 0;
       left: 0;
       font-size: $font-base-size + pr;
-      line-height: $line-height-base;
+      line-height: 1lh;
     }
   }
 }
