@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "shick",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Personal site hosted on GitHub Pages.",
   "author": "Michael Shick <m@shick.us>",
   "generator": "slush-gh-pages v1.0.0",
@@ -36,9 +36,9 @@
     "watch:js": "chokidar '_assets/javascripts/**/*' --silent -d -c 'npm run build:js:dev'",
     "watch:images": "chokidar '_assets/images/**/*' --silent -d -c 'npm run build:images'",
     "watch": "npm run clean && npm-run-all -p --continue-on-error watch:* serve",
-    "postinstall": "bundle install && npm run build:all",
+    "postinstall": "bundle install && npm run build",
     "preversion": "npm test",
-    "version": "NODE_ENV=production npm run build:all && git add -A assets",
+    "version": "NODE_ENV=production npm run build && git add -A assets",
     "postversion": "git push && git push --tags",
     "test": "npm run lint:js && npm run lint:css && npm run build:jekyll",
     "start": "npm run watch"
