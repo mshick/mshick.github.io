@@ -2,7 +2,7 @@
 title: Michael Shick
 url: http://shick.us
 description: I'm a developer.
-author: mshick
+author: Michael Shick
 logo: /assets/images/avatar.jpg
 
 # Where things are
@@ -48,7 +48,6 @@ timezone:      America/Los_Angeles
 
 quiet:    false
 verbose:  false
-defaults: []
 
 liquid:
   error_mode: lax
@@ -79,7 +78,6 @@ kramdown:
   smart_quotes:   lsquo,rsquo,ldquo,rdquo
   input:          GFM
   hard_wrap:      false
-  footnote_nr:    1
 
 # Html Compressor
 compress_html:
@@ -98,9 +96,9 @@ defaults:
     scope:
       type: "posts"
     values:
-      author: mshick
+      author: Michael Shick
   -
     scope:
       type: "projects"
     values:
-      author: mshick
+      author: Michael Shick
