@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "michael-shick",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "I'm a developer.",
   "author": "Michael Shick <m@shick.us>",
   "generator": "slush-gh-pages v1.5.0",
