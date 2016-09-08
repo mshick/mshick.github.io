@@ -1,6 +1,5 @@
 ---
 title: slush-gh-pages
-description: A feature-rich generator to get you up and running on GitHub Pages.
 image: "/assets/images/slush-gh-pages.png"
 layout: post
 ---
