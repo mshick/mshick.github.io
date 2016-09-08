@@ -5,12 +5,11 @@
 // Functions
 @import "functions";
 
-// Concise variables
-@import "variables";
+// Concise globals
+@import "globals";
 
 // Concise library
 @import "concise.css/concise";
-@import "concise-utils/concise-utils";
 
 // Custom styles
 @import "mixins";

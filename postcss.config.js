@@ -2,7 +2,7 @@
 
 const config = {
   use: [
-    'postcss-custom-media', 'postcss-media-minmax', 'postcss-lh', 'postcss-pr',
+    'postcss-custom-media', 'postcss-media-minmax', 'postcss-lh',
     'autoprefixer'
   ],
   autoprefixer: {

@@ -3,18 +3,19 @@ layout: default
 ---
 
 <article row class="post" itemscope itemtype="http://schema.org/BlogPosting">
-  <header grid class="post-header">
-    <div column="6">
-      <h2 class="post-title" itemprop="name headline">{{ page.title }}</h2>
+  <div grid>
+    <div column{% if page.image %}="8"{% endif %}>
+      <header grid class="post-header">
+        <h2 class="post-title" itemprop="name headline">{{ page.title }}</h2>
+      </header>
+      <div class="post-content" itemprop="articleBody">
+        {{ content }}
+      </div>
     </div>
     {% if page.image %}
-    <figure column class="post-image">
+    <figure column="4" class="post-image">
       <img src="{{ page.image }}" alt="post image"/>
     </figure>
     {% endif %}
-  </header>
-
-  <div class="post-content" itemprop="articleBody">
-    {{ content }}
   </div>
 </article>
