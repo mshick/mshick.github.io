@@ -1,105 +1,87 @@
-# User data
+---
 title: Michael Shick
+timezone: America/Los_Angeles
+collections:
+  posts:
+    title: Posts
+    output: true
+  projects:
+    title: Projects
+    output: true
+    permalink: "/projects/:path/"
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    author: Michael Shick
+- scope:
+    path: ''
+    type: projects
+  values:
+    author: Michael Shick
 url: http://shick.us
 description: I'm a developer.
 author: Michael Shick
-logo: /assets/images/avatar.jpg
-
-# Where things are
-destination:  ./_site
-layouts_dir:  _layouts
-data_dir:     _data
+logo: "/assets/images/avatar.jpg"
+destination: "./_site"
+layouts_dir: _layouts
+data_dir: _data
 includes_dir: _includes
-collections:
-  posts:
-    output:     true
-  projects:
-    output:     true
-    permalink:  /projects/:path/
-
-# Handling Reading
-encoding:     "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-keep_files:   []
-include:      []
+encoding: utf-8
+markdown_ext: markdown,mkdown,mkdn,mkd,md
+keep_files: []
+include: []
 exclude:
-  - vendor
-  - node_modules
-  - package.json
-  - rollup.config.js
-  - postcss.config.js
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-
-# Filtering Content
-show_drafts: null
+- vendor
+- node_modules
+- package.json
+- rollup.config.js
+- postcss.config.js
+- Gemfile
+- Gemfile.lock
+- README.md
+show_drafts: 
 limit_posts: 0
-future:      false
+future: false
 unpublished: false
-
-# Serving
-baseurl: "" # does not include hostname
+baseurl: ''
 show_dir_listing: false
-
-# Outputting
-permalink:     pretty
-paginate_path: /page:num
-timezone:      America/Los_Angeles
-
-quiet:    false
-verbose:  false
-
+permalink: pretty
+paginate_path: "/page:num"
+quiet: false
+verbose: false
 liquid:
   error_mode: lax
-
-# Required for github-metadata
 repository: mshick/mshick.github.io
-
-# Plugins
 gems:
-  - jekyll-mentions
-  - jemoji
-  - jekyll-redirect-from
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-paginate
-  - jekyll-gist
-
-  - jekyll-github-metadata
-
-
-# Markdown Processors
+- jekyll-mentions
+- jemoji
+- jekyll-redirect-from
+- jekyll-sitemap
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-paginate
+- jekyll-gist
+- jekyll-github-metadata
 kramdown:
-  auto_ids:       true
-  footnote_nr:    1
-  entity_output:  as_char
-  toc_levels:     1..6
-  smart_quotes:   lsquo,rsquo,ldquo,rdquo
-  input:          GFM
-  hard_wrap:      false
-
-# Html Compressor
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  input: GFM
+  hard_wrap: false
 compress_html:
   clippings: []
   comments: []
   endings: []
   ignore:
-    envs: ['development']
+    envs:
+    - development
   blanklines: false
   profile: false
   startings: []
-
-# Front Matter defaults
-defaults:
-  -
-    scope:
-      type: "posts"
-    values:
-      author: Michael Shick
-  -
-    scope:
-      type: "projects"
-    values:
-      author: Michael Shick
