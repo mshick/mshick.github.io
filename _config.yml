@@ -1,89 +1,6 @@
 ---
-# Basics
-title: "Michael Shick"
-description: "I'm a developer."
-url: "http://shick.us"
-author: "Michael Shick"
-logo: "/assets/images/avatar.jpg"
-
-# Where things are
-destination:  ./_site
-layouts_dir:  _layouts
-data_dir:     _data
-includes_dir: _includes
-
-# Handling Reading
-encoding:     "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-keep_files:   []
-include:      []
-exclude:
-  - vendor
-  - node_modules
-  - package.json
-  - rollup.config.js
-  - postcss.config.js
-  - Gemfile
-  - Gemfile.lock
-
-# Filtering Content
-show_drafts: null
-limit_posts: 0
-future:      false
-unpublished: false
-
-# Serving
-baseurl: "" # does not include hostname
-show_dir_listing: false
-
-# Outputting
-permalink:     pretty
-paginate_path: /page:num
-timezone:      America/Los_Angeles
-
-quiet:    false
-verbose:  false
-
-liquid:
-  error_mode: lax
-
-# Required for github-metadata
-repository: mshick/mshick.github.io
-
-# Plugins - these are all the plugins currently supported in the GitHub Pages environment
-gems:
-  - jekyll-mentions
-  - jemoji
-  - jekyll-redirect-from
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-paginate
-  - jekyll-gist
-
-# Markdown Processors
-kramdown:
-  auto_ids:       true
-  footnote_nr:    1
-  entity_output:  as_char
-  toc_levels:     1..6
-  smart_quotes:   lsquo,rsquo,ldquo,rdquo
-  input:          GFM
-  hard_wrap:      false
-
-# Html Compressor
-compress_html:
-  clippings: []
-  comments: []
-  endings: []
-  ignore:
-    envs:
-      - development
-  blanklines: false
-  profile: false
-  startings: []
-
-# Collections
+title: Michael Shick
+timezone: America/Los_Angeles
 collections:
   posts:
     title: Posts
@@ -95,16 +12,74 @@ collections:
   uploads:
     title: Uploads
     output: true
-
-# Front Matter defaults
 defaults:
-  - scope:
-      path: ''
-      type: posts
-    values:
-      author: Michael Shick
-  - scope:
-      path: ''
-      type: projects
-    values:
-      author: Michael Shick
+- scope:
+    path: ''
+    type: posts
+  values:
+    author: Michael Shick
+- scope:
+    path: ''
+    type: projects
+  values:
+    author: Michael Shick
+description: I'm a developer.
+url: http://shick.us
+author: Michael Shick
+logo: "/assets/images/avatar.jpg"
+destination: "./_site"
+layouts_dir: _layouts
+data_dir: _data
+includes_dir: _includes
+encoding: utf-8
+markdown_ext: markdown,mkdown,mkdn,mkd,md
+keep_files: []
+include: []
+exclude:
+- vendor
+- node_modules
+- package.json
+- rollup.config.js
+- postcss.config.js
+- Gemfile
+- Gemfile.lock
+show_drafts: 
+limit_posts: 0
+future: false
+unpublished: false
+baseurl: ''
+show_dir_listing: false
+permalink: pretty
+paginate_path: "/page:num"
+quiet: false
+verbose: false
+liquid:
+  error_mode: lax
+repository: mshick/mshick.github.io
+gems:
+- jekyll-mentions
+- jemoji
+- jekyll-redirect-from
+- jekyll-sitemap
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-paginate
+- jekyll-gist
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  input: GFM
+  hard_wrap: false
+compress_html:
+  clippings: []
+  comments: []
+  endings: []
+  ignore:
+    envs:
+    - development
+  blanklines: false
+  profile: false
+  startings: []
