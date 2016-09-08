@@ -33,8 +33,6 @@ data_dir: _data
 includes_dir: _includes
 encoding: utf-8
 markdown_ext: markdown,mkdown,mkdn,mkd,md
-keep_files: []
-include: []
 exclude:
 - vendor
 - node_modules
@@ -47,7 +45,7 @@ show_drafts:
 limit_posts: 0
 future: false
 unpublished: false
-baseurl: ''
+baseurl: 
 show_dir_listing: false
 permalink: pretty
 paginate_path: "/page:num"
@@ -74,12 +72,8 @@ kramdown:
   input: GFM
   hard_wrap: false
 compress_html:
-  clippings: []
-  comments: []
-  endings: []
   ignore:
     envs:
     - development
   blanklines: false
   profile: false
-  startings: []
