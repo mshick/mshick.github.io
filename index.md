@@ -1,8 +1,9 @@
 ---
 title: Welcome!
 date: 2016-08-11 00:00:00 -07:00
-layout: page
 body_class: body--homepage
+excerpt: Web developer and curious human.
+layout: page
 ---
 
 ### I am
