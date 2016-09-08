@@ -1,7 +1,7 @@
 ---
 title: Curriculum Vitæ
 date: 2016-08-15 23:57:00 -07:00
-description: My professional life and accomplishments, such as they are.
+excerpt: My professional life and accomplishments, such as they are.
 layout: post
 ---
 
