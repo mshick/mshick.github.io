@@ -1,6 +1,6 @@
 ---
 title: Curriculum Vitæ
-date: 2016-08-15 23:57:00 -07:00
+date: 2016-09-08 18:20:00 -07:00
 excerpt: My professional life and accomplishments, such as they are. 1
 layout: post
 ---

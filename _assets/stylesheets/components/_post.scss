@@ -2,6 +2,7 @@
   @include markdown-paragraph();
   @include markdown-blockquote();
   @include markdown-list();
+  @include markdown-headings();
 }
 
 .post-title {
