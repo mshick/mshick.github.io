@@ -24,7 +24,7 @@ defaults:
   values:
     author: Michael Shick
 description: I'm a developer.
-url: http://shick.us
+url: https://www.shick.us
 author: Michael Shick
 logo: "/assets/images/avatar.jpg"
 destination: "./_site"
