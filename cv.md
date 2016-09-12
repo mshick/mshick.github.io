@@ -5,7 +5,7 @@ excerpt: My professional life and accomplishments, such as they are. 1
 layout: post
 ---
 
-### Summary
+### Summary1
 
 As a web software developer, the bulk of my experience has dealt with content creation and management. I began working in this area developing strategies to manage multimedia content at _Fast Company_ magazine, and progressively worked on broader aspects of the content creator workflow as the lead developer there. I'm constantly evolving my preferred technology stack to solve the variety of problems that come up in client work at the digital agency Ronik Design, and feel one of my core strengths is bending with the wind, approaching technical solutions in a non-dogmatic fashion. I'm very interested in and sensitive to design and aesthetics as well, which makes Ronik's design focus a great fit for me.
 
