@@ -1,0 +1,14 @@
+
+<div row>
+  {% for project in site.projects %}
+    <div row class="post-teaser">
+      <h3 class="post-heading">
+        <a href="{{ project.url | prepend: base_path }}">{{ project.title }}</a>
+      </h3>
+      <div class="post-excerpt">
+        {{ project.excerpt }}
+      </div>
+
+    </div>
+  {% endfor %}
+</div>

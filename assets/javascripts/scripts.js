@@ -1,1 +1,213 @@
-"use strict";function createCommonjsModule(e,t){return t={exports:{}},e(t,t.exports),t.exports}function ready(e){var t=window.requestAnimationFrame||window.mozRequestAnimationFrame||window.webkitRequestAnimationFrame||window.msRequestAnimationFrame;t?t(e):window.addEventListener("load",e)}var require,commonjsGlobal="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof self?self:{},svg4everybody=createCommonjsModule(function(e,t){!function(n,o){"function"==typeof define&&define.amd?define([],function(){return n.svg4everybody=o()}):"object"==typeof t?e.exports=o():n.svg4everybody=o()}(commonjsGlobal,function(){function e(e,t){if(t){var n=document.createDocumentFragment(),o=!e.getAttribute("viewBox")&&t.getAttribute("viewBox");o&&e.setAttribute("viewBox",o);for(var i=t.cloneNode(!0);i.childNodes.length;)n.appendChild(i.firstChild);e.appendChild(n)}}function t(t){t.onreadystatechange=function(){if(4===t.readyState){var n=t._cachedDocument;n||(n=t._cachedDocument=document.implementation.createHTMLDocument(""),n.body.innerHTML=t.responseText,t._cachedTarget={}),t._embeds.splice(0).map(function(o){var i=t._cachedTarget[o.id];i||(i=t._cachedTarget[o.id]=n.getElementById(o.id)),e(o.svg,i)})}},t.onreadystatechange()}function n(n){function o(){for(var n=0;n<m.length;){var r=m[n],d=r.parentNode;if(d&&/svg/i.test(d.nodeName)){var s=r.getAttribute("xlink:href");if(i&&(!a.validate||a.validate(s,d,r))){d.removeChild(r);var l=s.split("#"),f=l.shift(),v=l.join("#");if(f.length){var g=u[f];g||(g=u[f]=new XMLHttpRequest,g.open("GET",f),g.send(),g._embeds=[]),g._embeds.push({svg:d,id:v}),t(g)}else e(d,document.getElementById(v))}}else++n}c(o,67)}var i,a=Object(n),r=/\bTrident\/[567]\b|\bMSIE (?:9|10)\.0\b/,d=/\bAppleWebKit\/(\d+)\b/,s=/\bEdge\/12\.(\d+)\b/;i="polyfill"in a?a.polyfill:r.test(navigator.userAgent)||(navigator.userAgent.match(s)||[])[1]<10547||(navigator.userAgent.match(d)||[])[1]<537;var u={},c=window.requestAnimationFrame||setTimeout,m=document.getElementsByTagName("use");i&&o()}return n})});ready(function(){return svg4everybody()});
+/******/ (function(modules) { // webpackBootstrap
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
+/******/
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/
+/******/ 		// Check if module is in cache
+/******/ 		if(installedModules[moduleId])
+/******/ 			return installedModules[moduleId].exports;
+/******/
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = installedModules[moduleId] = {
+/******/ 			i: moduleId,
+/******/ 			l: false,
+/******/ 			exports: {}
+/******/ 		};
+/******/
+/******/ 		// Execute the module function
+/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/
+/******/ 		// Flag the module as loaded
+/******/ 		module.l = true;
+/******/
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/
+/******/
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = modules;
+/******/
+/******/ 	// expose the module cache
+/******/ 	__webpack_require__.c = installedModules;
+/******/
+/******/ 	// identity function for calling harmory imports with the correct context
+/******/ 	__webpack_require__.i = function(value) { return value; };
+/******/
+/******/ 	// define getter function for harmory exports
+/******/ 	__webpack_require__.d = function(exports, name, getter) {
+/******/ 		Object.defineProperty(exports, name, {
+/******/ 			configurable: false,
+/******/ 			enumerable: true,
+/******/ 			get: getter
+/******/ 		});
+/******/ 	};
+/******/
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = function(module) {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			function getDefault() { return module['default']; } :
+/******/ 			function getModuleExports() { return module; };
+/******/ 		__webpack_require__.d(getter, 'a', getter);
+/******/ 		return getter;
+/******/ 	};
+/******/
+/******/ 	// Object.prototype.hasOwnProperty.call
+/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
+/******/
+/******/ 	// __webpack_public_path__
+/******/ 	__webpack_require__.p = "";
+/******/
+/******/ 	// Load entry module and return exports
+/******/ 	return __webpack_require__(__webpack_require__.s = 2);
+/******/ })
+/************************************************************************/
+/******/ ([
+/* 0 */
+/***/ function(module, exports) {
+
+function doneLoading () {
+  return document.readyState !== 'loading';
+}
+
+function ready (fn) {
+  var raf = window.requestAnimationFrame ||
+            window.mozRequestAnimationFrame ||
+            window.webkitRequestAnimationFrame ||
+            window.msRequestAnimationFrame;
+  if (raf) {
+    raf(function () {window.setTimeout(fn, 0)});
+  } else if (doneLoading()) {
+    fn();
+  } else {
+    document.addEventListener('readystatechange ', function onReadyStateChange(event) {
+      if (doneLoading()) {
+        event.target.removeEventListener('readystatechange', onReadyStateChange);
+        fn();
+      }
+    });
+  }
+}
+
+module.exports = ready;
+
+
+/***/ },
+/* 1 */
+/***/ function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!function(root, factory) {
+     true ? // AMD. Register as an anonymous module unless amdModuleId is set
+    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = function() {
+        return root.svg4everybody = factory();
+    }.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__)) : "object" == typeof exports ? module.exports = factory() : root.svg4everybody = factory();
+}(this, function() {
+    /*! svg4everybody v2.1.0 | github.com/jonathantneal/svg4everybody */
+    function embed(svg, target) {
+        // if the target exists
+        if (target) {
+            // create a document fragment to hold the contents of the target
+            var fragment = document.createDocumentFragment(), viewBox = !svg.getAttribute("viewBox") && target.getAttribute("viewBox");
+            // conditionally set the viewBox on the svg
+            viewBox && svg.setAttribute("viewBox", viewBox);
+            // copy the contents of the clone into the fragment
+            for (// clone the target
+            var clone = target.cloneNode(!0); clone.childNodes.length; ) {
+                fragment.appendChild(clone.firstChild);
+            }
+            // append the fragment into the svg
+            svg.appendChild(fragment);
+        }
+    }
+    function loadreadystatechange(xhr) {
+        // listen to changes in the request
+        xhr.onreadystatechange = function() {
+            // if the request is ready
+            if (4 === xhr.readyState) {
+                // get the cached html document
+                var cachedDocument = xhr._cachedDocument;
+                // ensure the cached html document based on the xhr response
+                cachedDocument || (cachedDocument = xhr._cachedDocument = document.implementation.createHTMLDocument(""), 
+                cachedDocument.body.innerHTML = xhr.responseText, xhr._cachedTarget = {}), // clear the xhr embeds list and embed each item
+                xhr._embeds.splice(0).map(function(item) {
+                    // get the cached target
+                    var target = xhr._cachedTarget[item.id];
+                    // ensure the cached target
+                    target || (target = xhr._cachedTarget[item.id] = cachedDocument.getElementById(item.id)), 
+                    // embed the target into the svg
+                    embed(item.svg, target);
+                });
+            }
+        }, // test the ready state change immediately
+        xhr.onreadystatechange();
+    }
+    function svg4everybody(rawopts) {
+        function oninterval() {
+            // while the index exists in the live <use> collection
+            for (// get the cached <use> index
+            var index = 0; index < uses.length; ) {
+                // get the current <use>
+                var use = uses[index], svg = use.parentNode;
+                if (svg && /svg/i.test(svg.nodeName)) {
+                    var src = use.getAttribute("xlink:href");
+                    if (polyfill && (!opts.validate || opts.validate(src, svg, use))) {
+                        // remove the <use> element
+                        svg.removeChild(use);
+                        // parse the src and get the url and id
+                        var srcSplit = src.split("#"), url = srcSplit.shift(), id = srcSplit.join("#");
+                        // if the link is external
+                        if (url.length) {
+                            // get the cached xhr request
+                            var xhr = requests[url];
+                            // ensure the xhr request exists
+                            xhr || (xhr = requests[url] = new XMLHttpRequest(), xhr.open("GET", url), xhr.send(), 
+                            xhr._embeds = []), // add the svg and id as an item to the xhr embeds list
+                            xhr._embeds.push({
+                                svg: svg,
+                                id: id
+                            }), // prepare the xhr ready state change event
+                            loadreadystatechange(xhr);
+                        } else {
+                            // embed the local id into the svg
+                            embed(svg, document.getElementById(id));
+                        }
+                    }
+                } else {
+                    // increase the index when the previous value was not "valid"
+                    ++index;
+                }
+            }
+            // continue the interval
+            requestAnimationFrame(oninterval, 67);
+        }
+        var polyfill, opts = Object(rawopts), newerIEUA = /\bTrident\/[567]\b|\bMSIE (?:9|10)\.0\b/, webkitUA = /\bAppleWebKit\/(\d+)\b/, olderEdgeUA = /\bEdge\/12\.(\d+)\b/;
+        polyfill = "polyfill" in opts ? opts.polyfill : newerIEUA.test(navigator.userAgent) || (navigator.userAgent.match(olderEdgeUA) || [])[1] < 10547 || (navigator.userAgent.match(webkitUA) || [])[1] < 537;
+        // create xhr requests object
+        var requests = {}, requestAnimationFrame = window.requestAnimationFrame || setTimeout, uses = document.getElementsByTagName("use");
+        // conditionally start the interval if the polyfill is active
+        polyfill && oninterval();
+    }
+    return svg4everybody;
+});
+
+/***/ },
+/* 2 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_svg4everybody__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_svg4everybody___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_svg4everybody__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_raf_ready__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_raf_ready___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_raf_ready__);
+
+
+
+__WEBPACK_IMPORTED_MODULE_1_raf_ready___default()(function () {
+  return __WEBPACK_IMPORTED_MODULE_0_svg4everybody___default()();
+});
+
+/***/ }
+/******/ ]);
+//# sourceMappingURL=scripts.js.map

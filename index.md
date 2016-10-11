@@ -3,7 +3,7 @@ title: Welcome!
 date: 2016-08-11 00:00:00 -07:00
 body_class: body--homepage
 excerpt: Web developer and curious human.
-layout: page
+layout: index
 ---
 
 ### I am
@@ -19,11 +19,4 @@ layout: page
 * Email: [m@shick.us](mailto:m@shick.us)
 * Phone: [+1-347-987-0104](tel:+13479870104)
 * GitHub: [mshick]({{ site.github.owner_url }})
-
-### Latest projects
-
-{% include project-list.html %}
-
-[comment]: <> (### Latest posts)
-
-{% include post-list.html %}
+* Instagram: [\_.\_\_\_\_\_\_\_\_\_\_.\_.\_.\_.\_.\_](https://www.instagram.com/_._________._._._._._/)

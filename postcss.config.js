@@ -1,8 +1,14 @@
 'use strict';
 
+const fs = require('fs');
+const yaml = require('js-yaml');
+const site = yaml.safeLoad(fs.readFileSync('./_config.yml', 'utf8'));
+
 const config = {
   use: [
-    'postcss-custom-media', 'postcss-media-minmax', 'postcss-lh',
+    'postcss-custom-media',
+    'postcss-media-minmax',
+    'postcss-lh',
     'autoprefixer'
   ],
   autoprefixer: {
@@ -10,7 +16,11 @@ const config = {
   },
   'postcss-urlrev': {
     relativePath: 'assets/stylesheets',
-    absolutePath: __dirname
+    absolutePath: __dirname,
+    replacer: (url, hash) => {
+      const baseurl = site.baseurl ? site.baseurl : '';
+      return `${baseurl}${url}?${hash}`;
+    }
   }
 };
 

@@ -20,3 +20,9 @@ p.post-meta {
   border: 1px dashed;
   padding: 0.5lh;
 }
+
+.post-heading {
+  a:after {
+    content: " ->";
+  }
+}

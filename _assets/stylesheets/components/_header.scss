@@ -1,25 +1,26 @@
 header {
-  text-align: center;
-
   .masthead {
     @include clearfix;
-
-    margin: 0 auto;
   }
 
   .title,
   .avatar__wrap {
+    font-family: $font-family-headings;
     display: block;
     width: 100%;
   }
 
   .title {
-    font-size: $type-10-primary;
+    font-size: typeScale(10);
 
     a,
     a:hover {
       color: getColor(text, heading);
     }
+  }
+
+  .avatar__wrap {
+    text-align: center;
   }
 
   hr {

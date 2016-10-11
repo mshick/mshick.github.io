@@ -2,6 +2,9 @@
 layout: compress
 ---
 
+{% include utils/base_path %}
+{% include utils/base_url %}
+
 <!doctype html>
 <html>
   <head>
@@ -21,6 +24,6 @@ layout: compress
 
     </div>
 
-    <script src="{{ base_path }}/assets/javascripts/scripts.js"></script>
+    {% include scripts.html %}
   </body>
 </html>
