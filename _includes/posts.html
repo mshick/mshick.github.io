@@ -1,0 +1,13 @@
+
+<div row>
+  {% for post in site.posts %}
+    <div row class="post-teaser">
+      <h3 class="post-heading">
+        <a href="{{ post.url | prepend: base_path }}">{{ post.title }}</a>
+      </h3>
+      <div class="post-excerpt">
+        {{ post.excerpt }}
+      </div>
+    </div>
+  {% endfor %}
+</div>

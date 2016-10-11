@@ -1,14 +1,5 @@
-{% if page.updated %}
-  {% assign updated = page.updated %}
-  {% capture updated_url %}https://github.com/mshick/mshick.github.io/commits/master/{{ page.path }}{% endcapture %}
-{% else if page.date %}
-  {% assign updated = page.date %}
-  {% capture updated_url %}https://github.com/mshick/mshick.github.io/commits/master/{{ page.path }}{% endcapture %}
-{% else %}
-  {% assign repo = site.github.public_repositories | where:"name", "mshick.github.io"  | first %}
-  {% assign updated = repo.pushed_at %}
-  {% capture updated_url %}{{ site.github.repository_url }}/commits{% endcapture %}
-{% endif %}
+{% assign updated = site.time %}
+{% capture updated_url %}{{ site.github.repository_url }}/commits{% endcapture %}
 
 <footer row>
   <hr />

@@ -47,7 +47,7 @@
   h5,
   h6 {
     position: relative;
-    margin-bottom: $spacing-m;
+    margin-bottom: $spacing-s;
 
     &:before {
       content: "## ";
@@ -88,7 +88,7 @@
       position: absolute;
       top: 0;
       left: 0;
-      font-size: $type-1-primary;
+      font-size: typeScale(1);
       line-height: 1.5lh;
       width: 100%;
       word-wrap: break-word;
@@ -113,7 +113,7 @@
       position: absolute;
       top: 0;
       left: 0;
-      font-size: $type-1-primary;
+      font-size: typeScale(1);
       line-height: 1lh;
     }
   }

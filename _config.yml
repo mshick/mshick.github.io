@@ -37,7 +37,7 @@ exclude:
 - vendor
 - node_modules
 - package.json
-- rollup.config.js
+- webpack.config.js
 - postcss.config.js
 - Gemfile
 - Gemfile.lock
@@ -45,7 +45,7 @@ show_drafts:
 limit_posts: 0
 future: false
 unpublished: false
-baseurl: 
+baseurl: ''
 show_dir_listing: false
 permalink: pretty
 paginate_path: "/page:num"
