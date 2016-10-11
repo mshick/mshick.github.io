@@ -8,7 +8,7 @@ layout: page
 
 ### I am
 
-* Technical Director at [Ronik Design](http://www.ronikdesign.com)
+* Running technology at [Parsley Health](http://www.parsleyhealth.com)
 * Great with React, Node.js, AWS, generators, content-management systems, relational and object databases
 * Writing in Javascript, Ruby, PHP
 * Pleased to meet you 👋
