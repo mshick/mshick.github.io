@@ -1,15 +1,19 @@
 ---
 title: Curriculum Vitæ
 date: 2016-09-08 18:20:00 -07:00
-excerpt: My professional life and accomplishments, such as they are. 1
+excerpt: My professional life and accomplishments, such as they are.
 layout: post
 ---
 
 ### Summary
 
-As a web software developer, the bulk of my experience has dealt with content creation and management. I began working in this area developing strategies to manage multimedia content at _Fast Company_ magazine, and progressively worked on broader aspects of the content creator workflow as the lead developer there. I'm constantly evolving my preferred technology stack to solve the variety of problems that come up in client work at the digital agency Ronik Design, and feel one of my core strengths is bending with the wind, approaching technical solutions in a non-dogmatic fashion. I'm very interested in and sensitive to design and aesthetics as well, which makes Ronik's design focus a great fit for me.
+Working as the Vice President of Engineering at Parsley Health, I'm leveraging my experience building beautiful, well-designed user experiences as Lead Developer at _Fast Company_ magazine, and as Technical Director at the creative agency Ronik Design. My goal is always to find elegant solutions to content and workflow problems, and construct the tools to solve them. I have a base of knowledge in Javascript and cloud-based architectures, but try to approach every problem with specificity and open-mindedness.
 
 ### Work experience
+
+* **Parsley Health** [2016]  
+
+  As Vice President of Engineering I am building better patient and practitioner experiences, working in the world of HIPAA compliance and electronic medical records.
 
 * **Ronik Design** [2014-2016]  
 
