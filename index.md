@@ -9,19 +9,19 @@ menu:
     title: Home
     identifier: home
     weight: 1
-
 ---
+
 ### I am
 
-* Running technology at [Parsley Health](https://www.parsleyhealth.com)
-* Using React, Node.js, AWS, Google Cloud, RabbitMQ, PostgreSQL
-* Writing mostly in Javascript
-* Pleased to meet you 👋
-* [Read more (Curriculum Vitæ)](/cv/)
+- Running technology at [Parsley Health](https://www.parsleyhealth.com)
+- Using React, Node.js, AWS, Google Cloud, RabbitMQ, PostgreSQL
+- Writing mostly in Javascript
+- Pleased to meet you 👋
+- [Read more (Curriculum Vitæ)](/cv/)
 
 ### Contact me
 
-* Email: [m@shick.us](mailto:m@shick.us)
-* Phone: [+1-347-987-0104](tel:+13479870104)
-* GitHub: [mshick]({{ site.github.owner_url }})
-* Instagram: [\_.\_\_\_\_\_\_\_\_\_\_.\_.\_.\_.\_.\_](https://www.instagram.com/_._________._._._._._/)
+- Email: [m@shick.us](mailto:m@shick.us)
+- Keybase: [mshick](https://keybase.io/mshick)
+- GitHub: [mshick]({{ site.github.owner_url }})
+- Instagram: [\_.\_\_\_\_\_\_\_\_\_\_.\_.\_.\_.\_.\_](https://www.instagram.com/_._________._._._._._/)
