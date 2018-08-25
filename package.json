@@ -33,8 +33,8 @@
     "build:fonts": "mkdir -p assets/fonts && cp -R _assets/fonts/ assets/fonts",
     "build:css": "npm run scss && npm run postcss",
     "build:css:dev": "npm run scss:dev && npm run postcss:dev",
-    "build:js": "NODE_ENV=production rollup --config --input _assets/javascripts/main.js --output assets/javascripts/scripts.js",
-    "build:js:dev": "rollup --config --sourcemap --input _assets/javascripts/main.js --output assets/javascripts/scripts.js",
+    "build:js": "NODE_ENV=production rollup --input _assets/javascripts/main.js --output assets/javascripts/scripts.js",
+    "build:js:dev": "rollup --sourcemap --input _assets/javascripts/main.js --output assets/javascripts/scripts.js",
     "build:images": "npm run imagemin && npm run icons",
     "build": "npm-run-all --serial clean build:images build:css build:js jekyll:build",
     "watch:jekyll": "JEKYLL_GITHUB_TOKEN=$([ -f .githubtoken ] && cat .githubtoken) JEKYLL_ENV=development bundle exec jekyll build --watch --incremental --config _config.yml,_config-development.yml || true",
@@ -89,14 +89,12 @@
     "stylelint": "^7.2.0",
     "stylelint-config-standard": "^13.0.0",
     "svg-sprite-generator": "0.0.7",
-    "svgo": "^0.7.0"
-  },
-  "dependencies": {
-    "concise-utils": "git://github.com/concisecss/concise-utils.git#master",
-    "concise.css": "github:concisecss/concise.css",
+    "svgo": "^0.7.0",
+    "concise-utils": "^1.0.0",
+    "concise.css": "^4.1.2",
     "svg4everybody": "^2.1.0"
   },
   "engines": {
-    "node": ">= 4.0.0"
+    "node": ">= 8.0.0"
   }
 }
