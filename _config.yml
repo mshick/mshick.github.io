@@ -7,26 +7,26 @@ collections:
   projects:
     title: Projects
     output: true
-    permalink: "/projects/:path/"
+    permalink: '/projects/:path/'
   uploads:
     title: Uploads
     output: true
 defaults:
   - scope:
-      path: ""
+      path: ''
       type: posts
     values:
       author: Michael Shick
   - scope:
-      path: ""
+      path: ''
       type: projects
     values:
       author: Michael Shick
 description: I'm a developer.
 url: https://shick.us
 author: Michael Shick
-logo: "/assets/images/avatar.jpg"
-destination: "./_site"
+logo: '/assets/images/avatar.jpg'
+destination: './_site'
 layouts_dir: _layouts
 data_dir: _data
 includes_dir: _includes
@@ -44,16 +44,16 @@ exclude:
 limit_posts: 0
 future: false
 unpublished: false
-baseurl: ""
+baseurl: ''
 show_dir_listing: false
 permalink: pretty
-paginate_path: "/page:num"
+paginate_path: '/page:num'
 quiet: false
 verbose: false
 liquid:
   error_mode: lax
 repository: mshick/mshick.github.io
-gems:
+plugins:
   - jekyll-mentions
   - jemoji
   - jekyll-redirect-from
