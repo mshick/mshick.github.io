@@ -10,4 +10,5 @@ gem 'html-proofer'
 # but be warned, they will not work in the GitHub Pages hosting environment
 group :jekyll_plugins do
   gem 'jekyll-github-metadata'
+  gem 'jekyll-menus'
 end
