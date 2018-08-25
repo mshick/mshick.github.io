@@ -1,6 +1,6 @@
 
 <div row>
-  {% for project in site.projects %}
+  {% for project in site.projects | sort: 'date' | reverse %}
     <div row class="post-teaser">
       <h3 class="post-heading">
         <a href="{{ project.url | prepend: base_path }}">{{ project.title }}</a>
