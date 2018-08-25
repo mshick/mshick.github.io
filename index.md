@@ -4,6 +4,11 @@ date: 2018-08-25 07:00:00 +0000
 body_class: body--homepage
 excerpt: Web developer and curious human.
 layout: index
+menu:
+  header:
+    title: Home
+    identifier: home
+    weight: 1
 
 ---
 ### I am
