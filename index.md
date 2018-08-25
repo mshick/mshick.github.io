@@ -19,4 +19,4 @@ layout: index
 * Email: [m@shick.us](mailto:m@shick.us)
 * Phone: [+1-347-987-0104](tel:+13479870104)
 * GitHub: [mshick]({{ site.github.owner_url }})
-* Instagram: [_.__________._._._._._](https://www.instagram.com/_._________._._._._._/)
+* Instagram: [\_.\_\_\_\_\_\_\_\_\_\_.\_.\_.\_.\_.\_](https://www.instagram.com/_._________._._._._._/)
