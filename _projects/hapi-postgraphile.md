@@ -1,9 +1,9 @@
 ---
 title: hapi-postgraphile
 layout: post
-date: 2018-07-31 21:00:00 -0700
-
+date: 2018-07-31 21:00:00 -0500
 ---
+
 A [postgraphile](https://www.graphile.org/postgraphile/) plugin for [hapi](https://hapijs.com/)
 
 Links:
