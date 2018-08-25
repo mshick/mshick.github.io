@@ -9,6 +9,10 @@
   margin-bottom: 1lh;
 }
 
+.post-teaser {
+  margin-bottom: $spacing-m;
+}
+
 .post-image {
   img {
     width: 100pr;
@@ -23,6 +27,6 @@ p.post-meta {
 
 .post-heading {
   a:after {
-    content: " ->";
+    content: ' ->';
   }
 }

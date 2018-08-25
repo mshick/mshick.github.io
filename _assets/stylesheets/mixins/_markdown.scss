@@ -30,7 +30,7 @@
 
     &:after {
       font-family: $font-family-mono;
-      content: "====================================================================================================";
+      content: '====================================================================================================';
       position: absolute;
       bottom: $spacing-m;
       left: 0;
@@ -41,7 +41,29 @@
     }
   }
 
-  h2,
+  h2 {
+    margin-top: $spacing-m;
+    margin-bottom: $spacing-m;
+    position: relative;
+    display: inline-block;
+    display: table-cell;
+    padding: $spacing-m 0 $spacing-m * 1.5;
+    margin: 0;
+    overflow: hidden;
+
+    &:after {
+      content: '-----------------------------------------------------------------------------------------------------';
+      position: absolute;
+      bottom: $spacing-m;
+      left: 0;
+      white-space: nowrap;
+    }
+
+    & + * {
+      margin-top: 0;
+    }
+  }
+
   h3,
   h4,
   h5,
@@ -50,25 +72,25 @@
     margin-bottom: $spacing-s;
 
     &:before {
-      content: "## ";
+      content: '## ';
       display: inline;
     }
   }
 
   h3:before {
-    content: "### ";
+    content: '### ';
   }
 
   h4:before {
-    content: "#### ";
+    content: '#### ';
   }
 
   h5:before {
-    content: "##### ";
+    content: '##### ';
   }
 
   h6:before {
-    content: "###### ";
+    content: '###### ';
   }
 }
 
@@ -84,7 +106,7 @@
     background-color: transparent;
 
     &:after {
-      content: "------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------";
+      content: '------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------';
       position: absolute;
       top: 0;
       left: 0;
@@ -108,7 +130,7 @@
     overflow: hidden;
 
     &:after {
-      content: ">\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>";
+      content: '>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>';
       white-space: pre;
       position: absolute;
       top: 0;
@@ -155,7 +177,7 @@
   }
 
   ul > li:after {
-    content: "*";
+    content: '*';
   }
 
   ol {
@@ -163,7 +185,7 @@
   }
 
   ol > li:after {
-    content: counter(ol) ".";
+    content: counter(ol) '.';
     counter-increment: ol;
   }
 }
