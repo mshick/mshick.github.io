@@ -8,8 +8,8 @@ layout: index
 ---
 ### I am
 
-* Running technology at [Parsley Health](http://www.parsleyhealth.com)
-* Using React, Node.js, AWS, generators, content-management systems, relational and object databases
+* Running technology at [Parsley Health](https://www.parsleyhealth.com)
+* Using React, Node.js, AWS, Google Cloud, RabbitMQ, PostgreSQL
 * Writing mostly in Javascript
 * Pleased to meet you 👋
 * [Read more (Curriculum Vitæ)](/cv/)
