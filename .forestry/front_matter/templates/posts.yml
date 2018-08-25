@@ -1,0 +1,10 @@
+---
+label: Posts
+hide_body: false
+is_partial: false
+fields:
+- name: author
+  default: Michael Shick
+  label: Author
+  type: text
+  hidden: false

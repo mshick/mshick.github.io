@@ -1,0 +1,35 @@
+---
+label: Projects
+hide_body: false
+is_partial: false
+fields:
+- name: title
+  default: TakeShape
+  label: Title
+  type: text
+  hidden: false
+- name: date
+  default: 2016-08-13 02:45:00 +0000
+  label: Date
+  type: datetime
+  hidden: false
+- name: layout
+  default: post
+  label: Layout
+  type: text
+  hidden: false
+- name: image
+  default: "/assets/images/slush-gh-pages.png"
+  label: Image
+  type: file
+  hidden: false
+- name: author
+  default: Michael Shick
+  label: Author
+  type: text
+  hidden: false
+pages:
+- _projects/static-stuff.md
+- _projects/raf-ready.md
+- _projects/fester.md
+- _projects/takeshape.md
