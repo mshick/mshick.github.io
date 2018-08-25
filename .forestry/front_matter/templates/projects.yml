@@ -29,6 +29,7 @@ fields:
   type: text
   hidden: false
 pages:
+- _projects/hapi-postgraphile.md
 - _projects/static-stuff.md
 - _projects/raf-ready.md
 - _projects/fester.md
