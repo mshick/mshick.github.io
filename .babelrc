@@ -1,9 +1,16 @@
 {
+  "ignore": "node_modules",
   "presets": [
-    ["es2015", {"modules": false}],
-    "stage-0"
+    "stage-0",
+    [
+      "env",
+      {
+        "targets": {
+          "browsers": ["last 2 versions", "safari >= 8"]
+        },
+        "modules": false
+      }
+    ]
   ],
-  "plugins": [
-    ["transform-runtime", {"polyfill": true, "regenerator": true}]
-  ]
+  "plugins": [["transform-runtime", { "polyfill": true, "regenerator": true }]]
 }
