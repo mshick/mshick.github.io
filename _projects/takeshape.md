@@ -1,12 +1,14 @@
 ---
 title: TakeShape
-date: 2016-08-12 19:45:00 -07:00
+date: 2016-08-13 02:45:00 +0000
 layout: post
+image: ''
+author: ''
+
 ---
+An amazing GraphQL content API, modeling UI and static site generator in one. Developed using AWS Lambda, Dynamo, React & Redux.
 
-Awesome new CMS, using best practices for 2016 to create a responsive, flexible, fast solution for content data modeling. Developed using AWS Lambda, Dynamo, React & Redux. Coming soon!
-
-I began work on this at [Ronik Design](http://www.ronikdesign.com) but have moved on to other projects.
+I began work on this while at [Ronik Design](http://www.ronikdesign.com) in 2016. The project has developed amazingly and I'm working it into a few current projects.
 
 Links:
 
