@@ -2,7 +2,7 @@
 title: TakeShape
 date: 2016-08-13 02:45:00 +0000
 layout: post
-image: ''
+image: "/forestryio/images/Screen Shot 2018-08-25 at 5.55.30 PM.png"
 author: ''
 
 ---
