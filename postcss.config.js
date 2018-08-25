@@ -3,9 +3,7 @@ const config = {
     'postcss-custom-media': {},
     'postcss-media-minmax': {},
     'postcss-lh': {},
-    autoprefixer: {
-      browsers: '> 5%'
-    },
+    autoprefixer: {},
     'postcss-urlrev': {
       relativePath: 'assets/stylesheets',
       absolutePath: __dirname
