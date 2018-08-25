@@ -298,11 +298,11 @@ button, input[type="submit"] {
   padding: 0 1.5em;
   transition: background-color 150ms;
   white-space: nowrap; }
-  button:hover, input[type="submit"]:hover, button:focus, input[type="submit"]:focus {
+  button:hover, input:hover[type="submit"], button:focus, input:focus[type="submit"] {
     background-color: #cc6359;
     text-decoration: none;
     outline: none; }
-  button:active, input[type="submit"]:active {
+  button:active, input:active[type="submit"] {
     background-color: #d2766d; }
   button[disabled], input[disabled][type="submit"] {
     background-color: #eee;
@@ -318,9 +318,7 @@ button, input[type="submit"] {
   cursor: default; }
 
 a,
-area,
-button,
-input[type="submit"],
+area, button, input[type="submit"],
 input,
 label,
 select,

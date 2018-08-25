@@ -1,3 +1,4 @@
 {
-  "extends": "xo-space/esnext"
+  "extends": ["xo-space/esnext", "prettier"],
+  "plugins": ["prettier"]
 }
