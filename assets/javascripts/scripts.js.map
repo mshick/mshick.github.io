@@ -1,1 +1,0 @@
-{"version":3,"file":"scripts.js","sources":["../../_assets/javascripts/main.js"],"sourcesContent":["import svg4everybody from 'svg4everybody';\nimport ready from 'raf-ready';\n\nready(() => svg4everybody());\n"],"names":[],"mappings":";;;AAGA,KAAK,CAAC,MAAM,aAAa,EAAE,CAAC,CAAC"}

@@ -2,4 +2,3 @@ import svg4everybody from 'svg4everybody';
 import ready from 'raf-ready';
 
 ready(() => svg4everybody());
-//# sourceMappingURL=scripts.js.map
