@@ -8,7 +8,7 @@ author: ''
 ---
 An amazing GraphQL content API, modeling UI and static site generator in one. Developed using AWS Lambda, Dynamo, React & Redux.
 
-I began work on this while at [Ronik Design](http://www.ronikdesign.com) in 2016. The project has developed amazingly and I'm working it into a few current projects.
+I was part of the team that began work on this while at [Ronik Design](http://www.ronikdesign.com) in 2016. The project has developed amazingly and I'm working it into a few current projects.
 
 Links:
 
