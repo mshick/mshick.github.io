@@ -9,9 +9,10 @@ menu:
     title: Home
     identifier: home
     weight: 1
----
 
-### I am
+---
+I am ...
+--------
 
 - Running technology at [Parsley Health](https://www.parsleyhealth.com)
 - Using React, Node.js, AWS, Google Cloud, RabbitMQ, PostgreSQL
@@ -19,7 +20,8 @@ menu:
 - Pleased to meet you 👋
 - [Read more (Curriculum Vitæ)](/cv/)
 
-### Contact me
+Contact me via
+--------------
 
 - Email: [m@shick.us](mailto:m@shick.us)
 - Keybase: [mshick](https://keybase.io/mshick)
