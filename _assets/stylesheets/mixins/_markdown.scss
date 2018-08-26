@@ -25,7 +25,7 @@
   h1,
   h2 {
     margin-top: 0;
-    margin-bottom: $spacing-m;
+    margin-bottom: 0;
     position: relative;
     display: inline-block;
     display: table-cell;
@@ -35,7 +35,7 @@
     &:after {
       content: '-----------------------------------------------------------------------------------------------------';
       position: absolute;
-      bottom: $spacing-m;
+      bottom: $spacing-m * 0.5;
       left: 0;
       white-space: nowrap;
     }
