@@ -24,12 +24,12 @@
 
   h1,
   h2 {
-    margin-top: $spacing-m;
+    margin-top: 0;
     margin-bottom: $spacing-m;
     position: relative;
     display: inline-block;
     display: table-cell;
-    padding: $spacing-m 0 $spacing-m * 1.5;
+    padding: 0 0 $spacing-m;
     overflow: hidden;
 
     &:after {
@@ -43,10 +43,6 @@
     & + * {
       margin-top: 0;
     }
-  }
-
-  h1 {
-    padding: $spacing-m 0 $spacing-m * 1.8;
   }
 
   h3,
