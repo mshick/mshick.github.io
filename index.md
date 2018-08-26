@@ -20,8 +20,8 @@ I am ...
 - Pleased to meet you 👋
 - [Read more (Curriculum Vitæ)](/cv/)
 
-Contact me via
---------------
+For more
+--------
 
 - Email: [m@shick.us](mailto:m@shick.us)
 - Keybase: [mshick](https://keybase.io/mshick)
