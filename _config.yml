@@ -36,10 +36,10 @@ exclude:
   - vendor
   - node_modules
   - package.json
-  - webpack.config.js
-  - postcss.config.js
   - Gemfile
   - Gemfile.lock
+  - postcss.config.js
+  - rollup.config.js
 ? show_drafts
 limit_posts: 0
 future: false
