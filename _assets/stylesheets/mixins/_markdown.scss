@@ -94,7 +94,7 @@
       font-size: typeScale(1);
       line-height: 1.25lh;
       width: 100%;
-      word-wrap: break-word;
+      white-space: nowrap;
     }
   }
 }
