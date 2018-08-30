@@ -5,13 +5,13 @@ header {
 
   .title,
   .avatar__wrap {
-    font-family: $font-family-headings;
+    font-family: $font-primary;
     display: block;
     width: 100%;
   }
 
   .title {
-    font-size: typeScale(10);
+    font-size: typeScale(8);
 
     a,
     a:hover {

@@ -1,7 +1,7 @@
 @mixin markdown-typography {
   font-weight: 300;
   font-style: normal;
-  font-family: $font-family-mono;
+  font-family: $font-mono;
   color: getColor(text, primary);
 
   strong {
@@ -16,7 +16,7 @@
   h4,
   h5,
   h6 {
-    font-family: $font-family-headings;
+    font-family: $font-primary;
     float: none;
     margin: 0;
     padding: 0;
@@ -33,7 +33,7 @@
     overflow: hidden;
 
     &:after {
-      content: '-----------------------------------------------------------------------------------------------------';
+      content: '-------------------------------------------------------------------------------------------------------';
       position: absolute;
       bottom: $spacing-m * 0.5;
       left: 0;
@@ -87,7 +87,7 @@
     background-color: transparent;
 
     &:after {
-      content: '=====================================================================================================';
+      content: '======================================================================================================';
       position: absolute;
       top: 0;
       left: 0;
