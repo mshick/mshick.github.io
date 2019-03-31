@@ -13,7 +13,9 @@ Working as the Vice President of Engineering at Parsley Health, I'm leveraging m
 
 * **Vice President of Engineering, Parsley Health** \[2016-Present\]
 
-  As the first engineering hire and manager of the engineering team, I've built an engineering team of 9, which includes data science, data, growth and product engineering concerns. I have worked as the technical lead through our Seed and Series A funding rounds. I personally built initial versions of our patient & checkout web applications, our synchronization backend and our general use application API. I am involved in all major technical decisions and systems design challenges.  
+  As the first engineering hire and manager of the engineering team, I've built an engineering team of 9, which includes data science, data, growth and product engineering concerns. I have worked as the technical lead through our Seed and Series A funding rounds. I personally built initial versions of our patient & checkout web applications, our synchronization backend and our general use application API. I am involved in all major technical decisions and systems design challenges.
+
+    
   At Parsley Health I want to build the most diverse, skilled and high-performing engineering team in the heath tech space.
 * **Technical Director, Ronik Design** \[2014-2016\]
 
