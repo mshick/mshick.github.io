@@ -1,15 +1,15 @@
 ---
 title: Curriculum Vitae
-date: 2016-09-09 01:20:00 +0000
+date: 2019-04-01 18:20:00 -0700
 excerpt: My professional life and accomplishments, such as they are.
 layout: post
 
 ---
 ### Summary
 
-Working as the Vice President of Engineering at Parsley Health, I'm leveraging my experience building beautiful, well-designed user experiences as Lead Developer at _Fast Company_ magazine, and as Technical Director at the creative agency Ronik Design. My goal is always to find elegant solutions to content and workflow problems, and construct the tools to solve them. I have a base of knowledge in Javascript and cloud-based architectures, but try to approach every problem with specificity and open-mindedness.
+As the VP of Engineering at Parsley Health, I've built the early products and the engineering team that has seen the company through a Series A raise with one the most acclaimed VC firms in New York. Prior to Parsley I was a tech lead with Fast Company magazine, where I built tech serving millions of readers per month, and I served as the technical director at a boutique creative agency.
 
-### Work experience
+### Work Experience
 
 * **Vice President of Engineering, Parsley Health** \[2016-Present\]
 
@@ -41,7 +41,7 @@ Working as the Vice President of Engineering at Parsley Health, I'm leveraging m
 
   3\.8 GPA.
 
-### Languages & technologies
+### Languages & Technologies
 
 * Languages: TypeScript / Javascript / Ruby / PHP / Bash
 * Cloud platforms: GCP / AWS / Aptible
