@@ -47,4 +47,4 @@ As the VP of Engineering at Parsley Health, I've built the early products and th
 * Cloud platforms: GCP / AWS / Aptible
 * Front-end: React / Redux
 * Databases: Postgres / Redis / RabbitMQ / Elastic Search
-* Tools: Docker, GraphQL
+* Tools: Docker / GraphQL
