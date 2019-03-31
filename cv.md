@@ -11,17 +11,17 @@ Working as the Vice President of Engineering at Parsley Health, I'm leveraging m
 
 ### Work experience
 
-* **Parsley Health** \[2016-Present\]
+* **Vice President of Engineering, Parsley Health** \[2016-Present\]
 
-  As Vice President of Engineering I am building better patient and practitioner experiences, working in the world of HIPAA compliance and electronic medical records.
-* **Ronik Design** \[2014-2016\]
+  As the first engineering hire and manager of the engineering team, I've built an engineering team of 9, which includes data science, data, growth and product engineering concerns. I have worked as the technical lead through our Seed and Series A funding rounds. I personally built initial versions of our patient & checkout web applications, our synchronization backend and our general use application API. I am involved in all major technical decisions and systems design challenges.  
+  At Parsley Health I want to build the most diverse, skilled and high-performing engineering team in the heath tech space.
+* **Technical Director, Ronik Design** \[2014-2016\]
 
-  As Technical Director I have overseen the architecture and execution of dozens of client projects, managed interns and other developers, and am constantly evolving the technical solutions we use to make this all happen.
-  We've worked with a variety of clients, such as the socially-minded Nonprofit Finance Fund and Purpose, the Phaidon publishing subsidiary Regan Arts, and a host of tech start-ups including Tycoon, MiMedia, and Chartbeat.
-* **Fast Company** \[2011-2014\]
+  Overseen the architecture and execution of dozens of client projects, managed interns and other developers, and am constantly evolving the technical solutions we use to make this all happen. We've worked with a variety of clients, such as the socially-minded Nonprofit Finance Fund and Purpose, the Phaidon publishing subsidiary Regan Arts, and a host of tech start-ups including Tycoon, MiMedia, and Chartbeat.
+* **Lead Developer, Fast Company** \[2011-2014\]
 
-  While Lead Developer at _Fast Company_ we took an overburdened Drupal-based website and brought it into the cloud, leveraging AWS and Apache Solr. We also built out a client-side Javascript-based web experience for our millions of monthly uniques, long before that was commonplace, optimizing for responsiveness and engagement beyond the first page load. The editor experience was completely overhauled, and enhanced to support publishing to a network of five sites, with sophisticated scheduling features that allowed fluid cross-posting and scheduling throughout all the properties.
-* **Mansueto Ventures** \[2005-2011\]
+  At _Fast Company_ we took an overburdened Drupal-based website and brought it into the cloud, leveraging AWS and Apache Solr. We also built out a client-side Javascript-based web experience for our millions of monthly uniques, long before that was commonplace, optimizing for responsiveness and engagement beyond the first page load. The editor experience was completely overhauled, and enhanced to support publishing to a network of five sites, with sophisticated scheduling features that allowed fluid cross-posting and scheduling throughout all the properties.
+* **Senior Multimedia Producer, Mansueto Ventures** \[2005-2011\]
 
   I began working as a production coordinator at Mansueto Ventures (publisher of business magazines _Inc._ and _Fast Company_) with a particular focus on producing podcasts and videos, before YouTube or an iTunes Store existed offering podcasts. Over the years I recorded, produced and handled technical aspects of distributing hundreds of scrappy news and business-interest pieces, including the creation of encoding workflows, and designing and coding players and archives.
 * **Freelance projects**
@@ -39,12 +39,10 @@ Working as the Vice President of Engineering at Parsley Health, I'm leveraging m
 
   3\.8 GPA.
 
-### Languages, technologies, &etc.
+### Languages & technologies
 
-* Languages: Javascript (ES5, ES2015, ES7) / Ruby / PHP
-* CMSs: Drupal / Jekyll / Craft CMS / Wordpress
-* Frameworks: Node.js / HAPI / Express / nginx
-* Front-end: React / Redux / Knockout / HTML / Sass & CSS
-* AWS: EC2 / ELB / Dynamo / S3 / Lambda / SQS / Route 53
-* Search: Apache Solr / Elastic Search
-* Tooling: Gulp / Grunt / Shell scripts
+* Languages: TypeScript / Javascript / Ruby / PHP / Bash
+* Cloud platforms: GCP / AWS / Aptible
+* Front-end: React / Redux
+* Databases: Postgres / Redis / RabbitMQ / Elastic Search
+* Tools: Docker, GraphQL
