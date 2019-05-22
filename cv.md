@@ -9,6 +9,8 @@ layout: post
 
 As the VP of Engineering at Parsley Health, I’ve built the early products and the engineering team that has seen the company through a Series A raise with one the most acclaimed VC firms in New York. Prior to Parsley I was a tech lead with Fast Company magazine, where I built tech serving millions of readers per month, and I served as the technical director at a boutique creative agency.
 
+...
+
 ### Work Experience
 
 * **Parsley Health, Vice President of Engineering**  \[2016-Present\]
