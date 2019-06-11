@@ -13,7 +13,7 @@ As the VP of Engineering at Parsley Health, I’ve built the early products and 
 
 * **Parsley Health, Vice President of Engineering**  \[2016-Present\]
 
-  As the first engineering hire and manager of the engineering team, I’ve built an engineering team of 9, which includes data science, data, growth and product engineering concerns. I have worked as the technical lead through our Seed and Series A funding rounds. I personally built initial versions of our patient & checkout web applications, our synchronization backend and our general use application API. I am involved in all major technical architecture and strategy decisions.
+  As the first engineering hire and manager of the engineering team, I built an engineering team of 9, which includes data science, data, growth and product engineering concerns. I have worked as the technical lead through our Seed and Series A funding rounds. I personally built initial versions of our patient & checkout web applications, our synchronization backend and our general use application API. I am involved in all major technical architecture and strategy decisions.
 * **Ronik Design, Technical Director** \[2014-2016\]
 
   Oversaw the architecture and execution of dozens of client projects, managed interns and other developers. Clients included Purpose, Phaidon, Tycoon, MiMedia, and Chartbeat.
