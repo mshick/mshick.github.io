@@ -40,7 +40,7 @@ As the VP of Engineering at Parsley Health, I’ve built the early products and 
 
 * Languages: TypeScript / Javascript / Ruby / PHP / Bash / GraphQL
 * Cloud platforms: GCP / AWS / Aptible
-* Cloud tools: Cloud PubSub / App Engine / Cloud DNS / KMS
+* Cloud tools: Cloud PubSub / App Engine / Cloud DNS
 * Front-end: React / Redux / Relay
 * Databases: Postgres / Redis / DynamoDB / Elastic Search
 * Tools: Docker
