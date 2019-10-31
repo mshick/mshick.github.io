@@ -24,4 +24,4 @@ menu:
 * Email: [m@shick.us](mailto:m@shick.us)
 * Keybase: [mshick](https://keybase.io/mshick)
 * GitHub: [mshick]({{ site.github.owner_url }})
-* [Instagram](https://www.instagram.com/_._________._._._._._/)
+* Instagram: [some dots and dashes](https://www.instagram.com/_._________._._._._._/)
