@@ -29,7 +29,7 @@ fields:
   hidden: false
 pages:
 - _projects/takeshape.md
-- _projects/fester.md
 - _projects/static-stuff.md
 - _projects/hapi-postgraphile.md
 - _projects/raf-ready.md
+- _projects/fester.md
