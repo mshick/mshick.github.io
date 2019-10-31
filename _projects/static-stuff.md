@@ -4,6 +4,7 @@ image: "/assets/images/slush-gh-pages.png"
 layout: post
 date: 2016-01-01T05:00:00.000+00:00
 author: ''
+published: false
 
 ---
 An ecosystem of generator scaffolding and basic themes like Bootstrap, and Zurb Foundation to get you up and running quickly with a static site. Includes robust build tools and a focus on absolute simplicity.
