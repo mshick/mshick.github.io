@@ -13,7 +13,7 @@ menu:
 ---
 ## I am ...
 
-* VP Engineering at [Parsley Health](https://www.parsleyhealth.com)
+* VP of Engineering at [Parsley Health](https://www.parsleyhealth.com)
 * Using React, TypeScript, Node.js, Google Cloud, RabbitMQ, PostgreSQL
 * Writing mostly in ~~Javascript~~ TypeScript
 * Pleased to meet you 👋
