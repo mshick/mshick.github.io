@@ -2,7 +2,7 @@
 title: Static Stuff
 image: "/assets/images/slush-gh-pages.png"
 layout: post
-date: 2015-12-31 21:00:00 -0800
+date: 2016-01-01T05:00:00.000+00:00
 author: ''
 
 ---

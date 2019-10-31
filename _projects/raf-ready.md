@@ -1,11 +1,12 @@
 ---
 title: raf-ready
 layout: post
-date: 2015-12-31 21:00:00 -0800
+date: 2016-01-01T05:00:00.000+00:00
 image: ''
 author: ''
----
+published: false
 
+---
 A super simple DOM ready module, using some suggested Google PageSpeed practices for checking when the DOM is ready via `RequestAnimationFrame`.
 
 Links:

@@ -1,9 +1,10 @@
 ---
 title: TakeShape
-date: 2016-08-13 02:45:00 +0000
+date: 2016-08-13T02:45:00.000+00:00
 layout: post
 image: "/uploads/images/takeshape-logo.png"
 author: ''
+published: false
 
 ---
 An amazing GraphQL content API, modeling UI and static site generator in one. Developed using AWS Lambda, Dynamo, React & Redux.
