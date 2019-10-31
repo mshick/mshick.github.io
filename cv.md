@@ -50,4 +50,4 @@ As the VP of Engineering at Parsley Health, I’ve built the early products and 
 * Cloud tools: Cloud PubSub / App Engine / Cloud DNS
 * Front-end: React
 * Databases: PostgreSQL / Redis
-* Misc: Docker, nginx, Sanity.io
+* Misc: Docker / nginx / Sanity.io
