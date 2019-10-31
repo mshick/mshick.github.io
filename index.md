@@ -1,6 +1,6 @@
 ---
 title: Welcome!
-date: 2018-08-25 07:00:00 +0000
+date: 2018-08-25T07:00:00.000+00:00
 body_class: body--homepage
 excerpt: Web developer and curious human.
 layout: index
@@ -24,4 +24,4 @@ menu:
 * Email: [m@shick.us](mailto:m@shick.us)
 * Keybase: [mshick](https://keybase.io/mshick)
 * GitHub: [mshick]({{ site.github.owner_url }})
-* Instagram: [_.__________._._._._._](https://www.instagram.com/_._________._._._._._/)
+* [Instagram](https://www.instagram.com/_._________._._._._._/)
