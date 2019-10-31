@@ -17,7 +17,7 @@ menu:
 * Using React, TypeScript, Node.js, Google Cloud, RabbitMQ, PostgreSQL
 * Writing mostly in ~~Javascript~~ TypeScript
 * Pleased to meet you 👋
-* [Read more (Curriculum Vitæ)](/cv/)
+* [Curriculum Vitæ](/cv/)
 
 ## For more
 
