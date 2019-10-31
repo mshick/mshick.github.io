@@ -11,7 +11,7 @@ As the VP of Engineering at Parsley Health, I’ve built the early products and 
 
 ### Work Experience
 
-**Parsley Health, Vice President of Engineering**  \[2016-Present\]
+**Parsley Health, VP of Engineering**  \[2016-Present\]
   * First engineering hire and manager of the engineering team.
   * Hired directly, or hired the people who hired a 15 person engineering team, working across platform, growth and product engineering concerns.
   * Technical lead through our Seed and Series A funding rounds. 
