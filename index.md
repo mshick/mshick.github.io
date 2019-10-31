@@ -13,9 +13,9 @@ menu:
 ---
 ## I am ...
 
-* Running technology at [Parsley Health](https://www.parsleyhealth.com)
-* Using React, Node.js, AWS, Google Cloud, RabbitMQ, PostgreSQL
-* Writing mostly in Javascript
+* VP Engineering at [Parsley Health](https://www.parsleyhealth.com)
+* Using React, TypeScript, Node.js, Google Cloud, RabbitMQ, PostgreSQL
+* Writing mostly in ~Javascript~ TypeScript
 * Pleased to meet you 👋
 * [Read more (Curriculum Vitæ)](/cv/)
 
