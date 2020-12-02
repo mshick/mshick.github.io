@@ -13,9 +13,7 @@ menu:
 ---
 ## I am ...
 
-* VP of Engineering at [Parsley Health](https://www.parsleyhealth.com)
-* Using React, TypeScript, Node.js, Google Cloud, RabbitMQ, PostgreSQL
-* Writing mostly in ~~Javascript~~ TypeScript
+* Developing GraphQL services at [TakeShape](https://www.takeshape.io)
 * Pleased to meet you 👋
 * [Curriculum Vitæ](/cv/)
 
